@@ -5,7 +5,7 @@
     <title>The Disturbing & Controversial Video Game Iceberg</title>
     <style>
     body {
-        margin: 20px;
+        margin: 0;
         color: hsl(60, 30%, 96%);
         font-family: Arial, Helvetica, sans-serif;
     }
@@ -24,6 +24,7 @@
 
     table#table_00 {
         margin: 0 auto;
+        margin-top: 11px;
         width: 1500px;
         border-collapse: collapse;
     }
@@ -58,8 +59,29 @@
         word-break: break-all;
     }
 
+    div#header_container {
+        padding: 16px 0 8px;
+        background-color: hsl(70, 6%, 9%);
+        border-bottom: 1px solid hsl(0, 0%, 0%);
+    }
+
+    h2 {
+        margin: 0;
+    }
+
     img {
+        margin: 0 auto;
+        vertical-align: bottom;
         height: 200px;
+        border: 2px solid hsl(0, 0%, 0%);
+    }
+
+    span.span_00 {
+        padding-left: 11px;
+        padding-right: 11px;
+        font-weight: bold;
+        font-size: 142%;
+        color: hsl(50, 9%, 30%);
     }
 
     /*  GITHUB CORNER  */
@@ -99,18 +121,18 @@
 </head>
 <body>
 
-<div class="center_text">
-
-    <h3>
-        <a href="https://www.youtube.com/@Wendigoon" target="_blank">Wendigoon</a>'s
-    </h3>
+<div id="header_container" class="center_text">
 
     <h2>
         The Disturbing & Controversial Video Game Iceberg
     </h2>
 
     <p>
+        <a href="https://www.youtube.com/@Wendigoon" target="_blank">Wendigoon</a>
+        <span class="span_00">|</span>
         <a href="https://www.youtube.com/watch?v=sQ1wzo2Zh14" target="_blank">youtube.com/watch?v=sQ1wzo2Zh14</a>
+        <span class="span_00">|</span>
+        <a href="data.json" target="_blank">data.json</a>
         <br>
         <br>
         <a href="2023-06-21_054409.png" target="_blank">
@@ -120,10 +142,8 @@
 
 </div>
 
-<br>
-
 <table id="table_00">
-    <thead>
+<!--     <thead>
         <tr>
             <th class="num">#</td>
             <th class="time">mm:ss</td>
@@ -131,7 +151,7 @@
             <th class="url_1">url 1</td>
             <th class="url_2">url 2</td>
         </tr>
-    </thead>
+    </thead> -->
     <tbody>
         <tr>
             <td class="num">01</td>
