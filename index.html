@@ -20,46 +20,48 @@
 
     div#main_container {
         margin: 0 auto;
-        width: 1500px;
     }
 
-    div#main_container table {
+    table#table_00 {
         margin: 0 auto;
-        width: 100%;
+        width: 1500px;
         border-collapse: collapse;
     }
-    div#main_container table thead tr th,
-    div#main_container table tbody tr td {
-        padding-bottom: 8px;
+    table#table_00 thead tr th {
+        padding-bottom: 4px;
+        border-bottom: 2px solid hsl(50, 11%, 41%);
     }
-    div#main_container table thead tr th:not(:last-of-type),
-    div#main_container table tbody tr td:not(:last-of-type) {
-        padding-right: 8px;
+    table#table_00 tbody tr td {
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
-    div#main_container table tbody tr td.num {
+    table#table_00 tbody tr:not(:last-of-type) td {
+        border-bottom: 1px solid hsl(50, 9%, 30%);
+    }
+    table#table_00 tbody tr td.num {
         width: 4%;
         text-align: center;
     }
-    div#main_container table tbody tr td.time {
-        width: 4%;
+    table#table_00 tbody tr td.time {
+        width: 10%;
         text-align: center;
     }
-    div#main_container table tbody tr td.title {
-        width: 20%;
+    table#table_00 tbody tr td.title {
+        width: 22%;
     }
-    div#main_container table tbody tr td.url_1 {
-        width: 36%;
+    table#table_00 tbody tr td.url_1 {
+        width: 32%;
         word-break: break-all;
     }
-    div#main_container table tbody tr td.url_2 {
-        width: 36%;
+    table#table_00 tbody tr td.url_2 {
+        width: 32%;
         word-break: break-all;
     }
     </style>
 </head>
 <body>
 
-<div id="main_container">
+<!-- <div id="main_container"> -->
 
 <h2>
     The Disturbing & Controversial Video Game Iceberg
@@ -69,7 +71,7 @@
     <a href="https://www.youtube.com/watch?v=sQ1wzo2Zh14" target="_blank">youtube.com/watch?v=sQ1wzo2Zh14</a>
 </p>
 
-<table>
+<table id="table_00">
     <thead>
         <tr>
             <th class="num">#</td>
@@ -286,7 +288,7 @@
     </tbody>
 </table>
 
-</div>
+<!-- </div> -->
 
 </body>
 </html>
